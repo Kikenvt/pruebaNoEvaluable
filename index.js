@@ -12,7 +12,7 @@ if (eval(numero) > 0) {
 } else if (eval(numero) < 0) {
   console.log("El número ingresado es negativo")
   alert("El número ingresado es negativo")
-} else if(eval(numero)=0){
+} else if(numero===0){
   console.log("El número ingresado es igual a cero.")
   alert("El número ingresado es igual a cero.")
 }else{
